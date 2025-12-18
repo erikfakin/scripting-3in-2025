@@ -34,9 +34,20 @@
 		padding-right: 32px;
 	}
 	
-	tr:nth-child(n){
+	tr:nth-child(2n){
 		background-color: #444;
 	}
+	.galleria img{
+		width: 256px;
+		height: 256px;
+		object-fit: cover;
+		opacity: 0.5;
+		
+	}
+	.galleria img:hover{
+		opacity: 1;
+	}
+	
 	
 	</style>
 </head>
@@ -85,5 +96,13 @@
 		</tr>
 		
 	</table>
+	
+	<h2>Galleria</h2>
+	<div class="galleria">
+		<img src="img1.jpg" alt="fiat 126 bianca" />
+		<img src="img2.jpg" alt="fiat 126 verde" />
+		<img src="img3.jpeg" alt="fiat 126 al mare" />
+	</div>
+	
 </body>
 </html>
