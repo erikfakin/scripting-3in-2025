@@ -1,0 +1,65 @@
+.immagine_prodotto {
+	width: 100%;
+}
+.stato_prodotto {
+	font-weight: bold;
+	color: pink;
+}
+.nome_prodotto {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.marrone {
+	width: 20px;
+	height: 20px;
+	background-color: #a17f5a;
+	border-radius: 50%;
+	border: solid 2px black;
+}
+.nero {
+	width: 20px;
+	height: 20px;
+	background-color: #1c1c1c;
+	border-radius: 50%;
+}
+.crema {
+	width: 20px;
+	height: 20px;
+	background-color: #ebdca6;
+	border-radius: 50%;
+}
+.colori_prodotto {
+	display: flex;
+	margin-top: 16px;
+	gap: 9px;
+	align-items: center;
+}
+.recensioni_prodotto {
+	display: flex;
+	align-items: center;
+}
+.numero_recensioni {
+	margin: 0;
+}
+.stella_piena svg, .stella_vuota svg{
+	width: 16px;
+	height: 16px;
+}
+.catalogo {
+	gap: 24px;
+	display: flex;
+}
+.descrizione_prodotto {
+	margin-top: 0;
+}
+.prezzo_prodotto {
+	font-weight: bold;
+	font-size: 18px;
+	
+}
+.stella_piena path{
+	fill: #101010;
+}
+.stella_vuota path{
+	fill: #d3d3d3;
+}
