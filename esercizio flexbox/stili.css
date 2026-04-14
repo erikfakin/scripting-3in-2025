@@ -63,3 +63,15 @@
 .stella_vuota path{
 	fill: #d3d3d3;
 }
+.prodotto{
+	position: relative;
+}
+.immagine_hover{
+	position: absolute;
+	opacity: 0;
+	left: 0;
+	top: 0;
+}
+.immagine_hover:hover{
+	opacity: 1;
+}
