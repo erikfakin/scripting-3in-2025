@@ -6,6 +6,16 @@
 // ciclo for 
 
 const numero = prompt("Inserisci un numero", 0);
-for(let i = 0; i < numero; i++){
-    console.log(i);
+
+if(numero > 0){
+    for(let i = 0; i < numero; i++){
+        console.log(i);
+    }
+} else {
+    for(let i = 0; i > numero; i--){
+        console.log(i);
+    }
 }
+
+
+
